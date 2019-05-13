@@ -10,7 +10,7 @@ from tfmetrics.metrics import evalsequence
 y_true = tf.constant([[0, 0, 0, 1, 2, 2, 0], [3, 4, 0, 0, 0, 0, 0]])
 y_pred = tf.constant([[0, 0, 1, 2, 2, 2, 0], [3, 4, 0, 0, 0, 0, 0]])
 
-#compare with sklaern metrics
+#compare with sklearn metrics
 y_true_ = [0, 0, 0, 1, 2, 2, 0, 3, 4, 0, 0, 0, 0, 0]
 y_pred_ = [0, 0, 1, 2, 2, 2, 0, 3, 4, 0, 0, 0, 0, 0]
 recall = recall_score(y_true_, y_pred_, average="macro")
