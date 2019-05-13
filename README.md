@@ -22,8 +22,8 @@ print("Recall score by 'sklearn' {:.4f}".format(recall))
 ```
 
 # Installation
-
-
-
+```python
+python setup.py install
+```
 # Requirement
 Tensorflow >= 1.12
