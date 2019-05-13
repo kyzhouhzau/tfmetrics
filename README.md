@@ -1,6 +1,7 @@
 # tfmetrics
 package "tfmetrics" will be used to eval f1_score, recall_score, precision_score in tensorflow>1.12
 now the package could only used to calculate "macro" indicator. If you want to calculate others "confusion_matrix" could help.
+for all metrics "weights" are supported.
 # Usage
 
 ```python
